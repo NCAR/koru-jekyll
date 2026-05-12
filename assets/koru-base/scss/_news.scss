@@ -312,7 +312,7 @@
 
       &::after {
         @include pseudo-element;
-        background: map.get($shared-colors, 'black');
+        background: map.get($shared-colors, 'darkest-gray');
         height: 100%;
         right: 0;
         top: 0;

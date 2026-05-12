@@ -54,6 +54,11 @@ li {
     &:visited {
       color: map-get($shared-colors, 'white');
     }
+
+    &:hover,
+    &:active {
+      color: map-get($shared-colors, 'darkest-gray');
+    }
   }
 
   li {

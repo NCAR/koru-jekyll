@@ -183,7 +183,6 @@ body {
 
 body,
 html {
-  color: #0a0a0a;
   height: 100%;
 }
 
@@ -201,9 +200,7 @@ cite::before {
 }
 
 hr {
-  background: #0a0a0a;
   border: 0;
-  color: #0a0a0a;
   height: 1px;
 }
 
@@ -229,14 +226,12 @@ pre code {
   text-decoration: underline;
 }
 .content figure {
-  border-color: #0a0a0a;
   border-style: solid;
   border-width: 10px;
   margin: 1.5rem;
 }
 .content figure figcaption {
-  background: #0a0a0a;
-  color: #f6f7f6;
+  color: #fff;
   padding: 10px 10px 1px;
   right: 0;
 }
@@ -1586,7 +1581,6 @@ ui-widget-header .ui-state-active:hover {
 .post-list p.date::after {
   content: "";
   position: absolute;
-  background: #0a0a0a;
   height: 100%;
   right: 0;
   top: 0;

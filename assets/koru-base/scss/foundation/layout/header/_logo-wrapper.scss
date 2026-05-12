@@ -36,9 +36,14 @@
 
 .logo-wrapper {
   a {
-    color: map-get($shared-colors, 'blue');
+    color: map-get($shared-colors, 'space-blue');
     display: block;
     outline: none;
+
+    &:link,
+    &:visited {
+      color: map-get($shared-colors, 'space-blue');
+    }
 
     &:hover,
     &:active {

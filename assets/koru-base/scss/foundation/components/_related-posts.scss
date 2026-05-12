@@ -8,6 +8,7 @@
   }
 
   a {
+    border: 10px solid map.get($shared-colors, 'darkest-gray');
     display: block;
     outline: none;
     position: relative;
@@ -19,6 +20,7 @@
 
   h4 {
     @include sentence-case;
+    background: map.get($shared-colors, 'darkest-gray');
     bottom: 0;
     color: map.get($shared-colors, 'white');
     font-size: map.get($font-sizes, 'default');

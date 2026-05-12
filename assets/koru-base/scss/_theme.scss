@@ -23,7 +23,7 @@ body {
 
 body,
 html {
-  color: map-get($shared-colors, 'black');
+  color: map-get($shared-colors, 'darkest-gray');
   height: 100%;
 }
 
@@ -42,9 +42,9 @@ cite {
 }
 
 hr {
-  background: map-get($shared-colors, 'black');
+  background: map-get($shared-colors, 'darkest-gray');
   border: 0;
-  color: map-get($shared-colors, 'black');
+  color: map-get($shared-colors, 'darkest-gray');
   height: 1px;
 }
 
@@ -74,12 +74,12 @@ pre {
   }
 
   figure {
-    @include button-arrow(map-get($shared-colors, 'black'), 10px);
+    @include button-arrow(map-get($shared-colors, 'darkest-gray'), 10px);
     margin: 1.5rem;
 
     figcaption {
-      background: map-get($shared-colors, 'black');
-      color: map-get($shared-colors, 'light-gray');
+      background: map-get($shared-colors, 'darkest-gray');
+      color: map-get($shared-colors, 'white');
       padding: 10px 10px 1px;
       right: 0;
 

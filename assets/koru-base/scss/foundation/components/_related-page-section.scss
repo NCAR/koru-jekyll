@@ -32,6 +32,15 @@
   .details {
     padding: 15px 20px;
 
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: map.get($shared-colors, 'darkest-gray');
+    }
+
     p {
       color: map.get($shared-colors, 'white');
     }

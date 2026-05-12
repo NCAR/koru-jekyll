@@ -11,6 +11,7 @@ blockquote {
 
   p {
     @include body-large;
+    color: map-get($shared-colors, 'darkest-gray');
   }
 }
 

@@ -33,6 +33,11 @@ header {
     li {
       a {
         padding: 8px 20px;
+
+        &:hover,
+        &:active {
+          color: map-get($shared-colors, 'darkest-gray');
+        }
       }
 
       i {
@@ -271,7 +276,7 @@ header {
     .menu {
       li {
         a {
-          color: map-get($shared-colors, 'light-gray');
+          color: map-get($shared-colors, 'darkest-gray');
           font-size: map-get($font-sizes, 'xxxsmall');
           position: relative;
         }
